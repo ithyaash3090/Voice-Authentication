@@ -1,0 +1,67 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Audio & Temporary Recordings
+*.wav
+*.mp3
+*.ogg
+*.flac
+temp_audio/
+recordings/
+enrollment_data/
+*.raw
+
+# ONNX Models (large binary weights)
+models/*.onnx
+!models/.gitkeep
+
+# Visual Studio & C++ Builds
+.vs/
+*.VC.db
+*.opendb
+Debug/
+Release/
+x64/
+x86/
+*.obj
+*.pdb
+*.idb
+*.ilk
+*.exp
+*.lib
+*.dll
+*.exe
+
+# Environment & Credentials
+.env
+*.pem
+*.key
+credentials.vault
+
+# IDEs & Editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
