@@ -3,7 +3,7 @@
 A local, offline voice biometrics authentication system designed for Windows 11 logon (Windows Hello style). It allows users to unlock their laptop or PC using a spoken passphrase and biometric speaker verification without requiring an internet connection or a dedicated GPU.
 
 ---
-
+ 
 ## 🌟 Key Features
 
 - **100% Offline & Private:** All speech recognition, voiceprint feature extraction, and biometric matching occur entirely on the local machine.
